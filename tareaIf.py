@@ -19,13 +19,14 @@ def decir_si_es_mas_grande_que(unNumero):
 
 def decir_si_es_mas_grande_que(unNumero):
   if unNumero > 10:
-    resultado = unNumero > 10
-  return resultado
+    return True
+  else:
+    return False
 
 # 4. Completar y probar:
 def decir_si_es_igual_a(unNumero):
   numero = 10
-  return unNumero == 10
+  return unNumero == numero
 
 # 5. Completar y probar:
 def decir_si_la_longitud_es_igual_a(unNombre, unNumero):
@@ -60,6 +61,8 @@ def devolver_segun_condicionales_locas(unNumero):
     resultado = unNumero * 2
   elif (unNumero >= 20) and (unNumero <= 34):
     resultado = unNumero + 5
+  else:
+    resultado = 0
   return resultado
 
 #TERCERA PARTE
@@ -76,6 +79,8 @@ def devolver_el_doble_si_es_mayor_10_y_menor_20(numero): #DUDAAAA!!!
 def rayos_y_centellas(numero):
   if (numero > 20) or (numero <5):
     return "Rayos y Centellas" 
+  else:
+    return ""
 
 # 3. Definir una función que recibe un número y devuelve “Está en el rango deseado” si el valor está
 # entre 5 y 10 y “Fuera de Rango” en caso contrario
